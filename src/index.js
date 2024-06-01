@@ -13,6 +13,10 @@ app.use(
    })
 );
 
+app.get("/", (req, res) => {
+   res.send("Hello, rizz");
+});
+
 app.get("/api", async (req, res) => {
    const response = await fetch(
       "https://satscreener-api.up.railway.app/api/v1/stx20/rizz",
