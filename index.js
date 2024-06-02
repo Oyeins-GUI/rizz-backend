@@ -9,7 +9,7 @@ config();
 
 app.use(
    cors({
-      origin: "*",
+      origin: "https://rizz-tau.vercel.app",
    })
 );
 
